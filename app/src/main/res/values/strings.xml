@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zenny Thoughts</string>
+    <string name="start_quote">The Tao that can be told is not the true Tao.</string>
+    <string name="start_author">Lao Tzu</string>
+    <string name="button_text">Tap for More Zen</string>
+    <string name="imageview_description">mandala</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ZennyThoughtsActivity"
+    android:background="#fffefedb">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mandalaImageView"
+        android:layout_above="@+id/moreZenButtonView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/doodle1"
+        android:contentDescription="@string/imageview_description"
+        android:cropToPadding="false" />
+
+    <com.alexalexanderdev.zennythoughts.AutoResizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/quoteTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:text="@string/start_quote"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        android:id="@+id/moreZenButtonView"
+        android:background="#fffbfea6"
+        android:textColor="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_author"
+        android:id="@+id/authorTextView"
+        android:layout_below="@+id/quoteTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="3dp" />
+
+</RelativeLayout>
