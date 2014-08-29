@@ -19,6 +19,16 @@
         android:contentDescription="@string/imageview_description"
         android:adjustViewBounds="true" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newMandalaImageView"
+        android:layout_above="@+id/moreZenButtonView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/doodle1"
+        android:contentDescription="@string/imageview_description"
+        android:adjustViewBounds="true" />
+
     <com.alexalexanderdev.zennythoughts.AutoResizeTextView
         android:layout_width="wrap_content"
         android:layout_height="100dp"
@@ -27,6 +37,18 @@
         android:layout_centerHorizontal="true"
         android:textSize="28sp"
         android:text="@string/start_quote"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp" />
+
+    <com.alexalexanderdev.zennythoughts.AutoResizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/newQuoteTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:text=""
         android:paddingLeft="15dp"
         android:gravity="center_vertical"
         android:layout_marginTop="5dp" />
@@ -47,6 +69,18 @@
         android:text="@string/start_author"
         android:id="@+id/authorTextView"
         android:layout_below="@+id/quoteTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_author"
+        android:id="@+id/newAuthorTextView"
+        android:layout_below="@+id/newQuoteTextView"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textSize="18sp"
