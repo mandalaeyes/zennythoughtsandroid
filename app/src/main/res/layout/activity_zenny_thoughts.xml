@@ -17,7 +17,7 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/doodle1"
         android:contentDescription="@string/imageview_description"
-        android:cropToPadding="false" />
+        android:adjustViewBounds="true" />
 
     <com.alexalexanderdev.zennythoughts.AutoResizeTextView
         android:layout_width="wrap_content"
