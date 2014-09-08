@@ -3,6 +3,7 @@ package com.alexalexanderdev.zennythoughts;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,6 +18,9 @@ public class ZennyThoughtsActivity extends Activity {
     private MandalaBook mMandalaBook = new MandalaBook();
     private AtomicBoolean viewSwitch = new AtomicBoolean(false);
     private ViewSwitcher mViewSwitcher = new ViewSwitcher();
+    private RecordPlayer mRecordPlayer = new RecordPlayer();
+    private Context context = this;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +36,6 @@ public class ZennyThoughtsActivity extends Activity {
         Button moreZenButton = (Button) findViewById(R.id.moreZenButtonView);
 
 
-
         // Initially hide "new quote" and "new author" TextViews, and "new mandala" ImageView.
         mNewQuoteTextView.setVisibility(View.GONE);
         mNewAuthorTextView.setVisibility(View.GONE);
@@ -42,9 +45,14 @@ public class ZennyThoughtsActivity extends Activity {
         final int mAnimationDuration = getResources().getInteger(
                 android.R.integer.config_longAnimTime);
 
+
+
         final View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                // Play a random microsong.
+                mRecordPlayer.playMusic(context);
 
                 // Get random quote number.
                 int quoteNumber = mQuoteBook.getRandomQuoteNumber();
