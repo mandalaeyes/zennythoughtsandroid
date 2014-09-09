@@ -39,7 +39,12 @@ public class QuoteBook {
             "One can travel the world and see nothing. " +
                     "To achieve understanding, it is necessary not to see many things, " +
                     "but to look hard at what you do see.",
-            "Knowing ignorance is strength; ignoring knowledge is sickness."
+            "Knowing ignorance is strength; ignoring knowledge is sickness.",
+            "Don't be too quick to draw conclusions from what happens to you; " +
+                    "simply let it happen.",
+            "Believe me: life is in the right, always.",
+            "Something unknown is doing we-don't-know-what, that is what our knowledge amounts to!",
+            "You are something the whole world is doing."
     };
 
     String[] mAuthors = {
@@ -62,7 +67,11 @@ public class QuoteBook {
             "Zen saying",
             "Steve Hagen",
             "Giorgio Morandi",
-            "Lao Tzu"
+            "Lao Tzu",
+            "Rainer Maria-Rilke",
+            "Rainer Maria-Rilke",
+            "Alan Watts",
+            "Alan Watts"
     };
 
     // Methods (abilities/things the object can do)
