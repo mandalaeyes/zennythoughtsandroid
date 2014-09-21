@@ -6,7 +6,7 @@ public class QuoteBook {
 
     // Member variables (properties about the object)
     String[] mQuotes = {
-            "cucumber unaccountably cucumbering",
+            "cucumber\nunaccountably\ncucumbering",
             "Sometimes the highest form of action is inaction.",
             "The beginning is in the end and the end is in the beginning.",
             "There is no need for temples, no need for complicated philosophy. " +
@@ -44,7 +44,37 @@ public class QuoteBook {
                     "simply let it happen.",
             "Believe me: life is in the right, always.",
             "Something unknown is doing we-don't-know-what, that is what our knowledge amounts to!",
-            "You are something the whole world is doing."
+            "You are something the whole world is doing.",
+            "One does what one is; one becomes what one does.",
+            "Things are symbols of themselves.",
+            "A monk asked Yun-men: 'What is this place where thought is useless?' Yun-men replied: " +
+                    "'Thought and emotion cannot fathom it.'",
+            "Happiness is a how, not a what; a talent, not an object.",
+            "Muddy water is best cleared by leaving it alone.",
+            "Autumn wind:\ngods, Buddha--\nlies, lies, lies.",
+            "To manage your mind, know that there is nothing, and then relinquish all attachment to the nothingness.",
+            "I would rather feel compassion than know the meaning of it.",
+            "Open your mouth and you're wrong.",
+            "Freedom from the desire for an answer is essential to the understanding of a problem.",
+            "Through enlightenment I acquired nothing.",
+            "Without leaving my house\nI know the whole universe.",
+            "I have discovered that all human evil comes from this, man's being unable to sit still in a room.",
+            "The wild geese do not intend to cast\ntheir reflection;\nthe water has no mind to receive\ntheir image.",
+            "The first problem for all of us, men and women, is not to learn, but to unlearn.",
+            "Act without doing;\nwork without effort.",
+            "Look within, thou art the Buddha.",
+            "The truth is more important than the facts.",
+            "It is only when we realize that life is taking us nowhere that it begins to have meaning.",
+            "Only in the present do things happen.",
+            "Remember: information is not knowledge; knowledge is not wisdom; wisdom is not truth; " +
+                    "truth is not beauty; beauty is not love; love is not music; music is the best.",
+            "Sometimes it proves the highest understanding not to understand.",
+            "The most beautiful thing in the world is, of course, the world itself.",
+            "A man is rich in proportion to the number of things which he can afford to let alone.",
+            "The mystery of life is not a problem to be solved but a reality to be experienced.",
+            "To live only for some future goal is shallow. It's the sides of the mountain that sustain life," +
+                    " not the top.",
+            "Know the One.\nLove the All."
     };
 
     String[] mAuthors = {
@@ -71,7 +101,34 @@ public class QuoteBook {
             "Rainer Maria-Rilke",
             "Rainer Maria-Rilke",
             "Alan Watts",
-            "Alan Watts"
+            "Alan Watts",
+            "Robert Musil",
+            "Chogyam Trungpa",
+            "Zen koan",
+            "Herman Hesse",
+            "Alan Watts",
+            "Shiki",
+            "Lao Tzu",
+            "St. Thomas Aquinas",
+            "Soen Sa Nim",
+            "Krishnamurti",
+            "The Buddha",
+            "Lao Tzu",
+            "Blaise Pascal",
+            "Zen poem",
+            "Gloria Steinem",
+            "Lao Tzu",
+            "The Buddha",
+            "Frank Lloyd Wright",
+            "P. D. Ouspensky",
+            "Jorge Luis Borges",
+            "Frank Zappa",
+            "Gracián",
+            "Wallace Stevens",
+            "Henry David Thoreau",
+            "Aart van der Leeuw",
+            "Robert M. Pirsig",
+            "T'ao-Shan"
     };
 
     // Methods (abilities/things the object can do)
