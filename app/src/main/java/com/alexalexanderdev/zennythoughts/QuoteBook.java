@@ -6,7 +6,7 @@ public class QuoteBook {
 
     // Member variables (properties about the object)
     String[] mQuotes = {
-            "cucumber\nunaccountably\ncucumbering",
+            "cucumber unaccountably cucumbering",
             "Sometimes the highest form of action is inaction.",
             "The beginning is in the end and the end is in the beginning.",
             "There is no need for temples, no need for complicated philosophy. " +
@@ -51,17 +51,17 @@ public class QuoteBook {
                     "'Thought and emotion cannot fathom it.'",
             "Happiness is a how, not a what; a talent, not an object.",
             "Muddy water is best cleared by leaving it alone.",
-            "Autumn wind:\ngods, Buddha--\nlies, lies, lies.",
+            "Autumn wind: gods, Buddha--lies, lies, lies.",
             "To manage your mind, know that there is nothing, and then relinquish all attachment to the nothingness.",
             "I would rather feel compassion than know the meaning of it.",
             "Open your mouth and you're wrong.",
             "Freedom from the desire for an answer is essential to the understanding of a problem.",
             "Through enlightenment I acquired nothing.",
-            "Without leaving my house\nI know the whole universe.",
+            "Without leaving my house I know the whole universe.",
             "I have discovered that all human evil comes from this, man's being unable to sit still in a room.",
-            "The wild geese do not intend to cast\ntheir reflection;\nthe water has no mind to receive\ntheir image.",
+            "The wild geese do not intend to cast their reflection; the water has no mind to receive their image.",
             "The first problem for all of us, men and women, is not to learn, but to unlearn.",
-            "Act without doing;\nwork without effort.",
+            "Act without doing; work without effort.",
             "Look within, thou art the Buddha.",
             "The truth is more important than the facts.",
             "It is only when we realize that life is taking us nowhere that it begins to have meaning.",
@@ -74,7 +74,7 @@ public class QuoteBook {
             "The mystery of life is not a problem to be solved but a reality to be experienced.",
             "To live only for some future goal is shallow. It's the sides of the mountain that sustain life," +
                     " not the top.",
-            "Know the One.\nLove the All."
+            "Know the One. Love the All."
     };
 
     String[] mAuthors = {
